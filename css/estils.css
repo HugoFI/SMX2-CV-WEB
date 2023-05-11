@@ -1,0 +1,85 @@
+html{
+    font-size: 100px;
+}
+body{
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+}
+h1{
+    font-size: 0.6rem;
+}
+h2{
+    font-size: 0.5rem;
+}
+h3{
+    font-size: 0.4rem;
+}
+p{
+    font-size: 0.3rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+.nav{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    font-size: 0.3rem;
+    background-color: tomato;
+}
+.icon{
+    display: flex;
+    padding-left: 1%;
+    color: white;
+}
+.icon:hover{
+
+}
+.icon1{
+    width: 60%;
+}
+.icon234{
+    width: 13,3%;
+}
+.titulo{
+    background-color: tomato;
+    color: white;
+    text-align: center;
+}
+i.fas.fa-graduation-cap{
+    color: white;
+}
+i.fas.fa-graduation-cap:hover{
+    color: black;
+}
+i.fas.fa-home{
+    color: white;
+}
+i.fas.fa-home:hover{
+    color: black;
+}
+.animated-icon {
+    transition: transform 0.3s;
+}
+  
+.animated-icon:hover {
+    animation: jump 1s infinite;
+    color: black;
+}
+ 
+@keyframes jump {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-0.2rem);
+    }
+    60% {
+      transform: translateY(-0.1rem );
+    }
+}
