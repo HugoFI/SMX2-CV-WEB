@@ -69,7 +69,6 @@ i.fas.fa-home:hover{
 .animated-icon {
     transition: transform 0.3s;
 }
-  
 .animated-icon:hover {
     animation: jump 1s infinite;
     color: black;
@@ -114,13 +113,16 @@ img{
     border-radius: 30px;
     margin: 3%;
     padding: 1%;
+    text-align: center;
 }
 .vid{
-    margin-left: 25%;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+iframe{
+    width: 60%;
+    height: 50%;
 }
 .passatemps{
     border: solid 3px black;
@@ -140,7 +142,7 @@ img{
     margin: 3%;
     padding: 1%;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:500px){
     html{
         font-size: 50px;
     }
@@ -155,5 +157,9 @@ img{
         text-align: center;
         align-items: center;
         justify-content: center;
+    }
+    .qui{
+        display: block;
+        text-align: center;
     }
 }
